@@ -1,0 +1,25 @@
+scrapy startproject Youtube
+scrapy  genspider youtube "xx.com"
+
+
+item  ->    name  link  img 
+
+xpath ->name  link  img 
+
+#mid-->phontomjs
+
+settings-->user-agent   
+
+print item["name"]
+
+yield item
+
+pipline-->json reids
+open
+
+close
+
+
+settings-->start pipline
+
+
